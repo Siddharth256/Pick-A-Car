@@ -1,7 +1,5 @@
 import React, { useState, useEffect } from 'react';
 import './Slider.css';
-import { HashLink, a } from 'react-router-hash-link';
-import { Link } from 'react-router-dom';
 import BookARide from './Bookride'
 import Products from './Products';
 import Testimonial from './Test';
@@ -48,15 +46,7 @@ export default function Slider() {
   if (!slides || slides.length === 0) {
     return null; // Return null or handle the case when slides are not available
   }
-  const handleLinkClick = (event) => {
-		// event.preventDefault();
-		const targetId = event.target.getAttribute("href");
-		const targetElement = document.querySelector(targetId);
-		if (targetElement) {
-			targetElement.scrollIntoView({ behavior: "smooth" });
-		}
-		 // Close the navigation menu after clicking on a link
-	};
+
 
   return (
     <div className='main_box'>

@@ -2,7 +2,6 @@ import './App.css';
 import Slider from './Components/Slider/Slider';
 import Footer from './Components/Footer/Footer'
 import { Routes,Route } from 'react-router-dom';
-import { BrowserRouter } from 'react-router-dom';
 import Hatchback from './Components/CarsDisplay/Hatchbacks'
 import XYZ from './Components/CarsDisplay/SUV';
 import Sedan from './Components/CarsDisplay/Sedan'
