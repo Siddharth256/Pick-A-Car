@@ -1,0 +1,349 @@
+.containercontact {
+  width: 70%;
+  height: 32em;
+  display: flex;
+  flex-direction: row;
+  /* border: 1px solid black; */
+  margin-left: 15vw;
+  margin-right: 15vw;
+  /* background-color: rgb(255, 255, 255); */
+  border-radius: 2em;
+  margin-top: 5em;
+  margin-bottom: 5em;
+  box-shadow: 0.1em 0em 1em rgb(162, 161, 161);
+}
+.uppercontactcontainer{
+  height: 80%;
+  /* border: 1px solid green; */
+  display: flex;
+    flex-direction: row;
+    
+  }
+  
+  .uppercontact {
+    height: 100%;
+    width: 100%;
+    margin-right: 50%;
+    /* border: 1px solid blue; */
+    /* padding: 20px; */
+    
+  }
+  
+  .lowercontact {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+    font-weight: bold;
+    /* border: 1px solid purple; */
+    margin-left: 20vw;
+  }
+  .lowerleft{
+    width: 50%;
+    /* border: 1px solid hotpink; */
+  }
+  
+  .h22 {
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 40px;
+    margin-left: 1em;
+    /* border: 1px solid brown; */
+  }
+  
+  .form-groupcontact {
+    margin-bottom: 20px;
+    /* border: 1px solid rgb(1, 91, 101); */
+    margin-left: 1em;
+  }
+  
+  .label1 {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold; 
+    font-size: 18px;
+    /* border: 1px solid rgb(140, 140, 2); */
+    
+  }
+  
+  .formki {
+    width: 90%;
+    padding: 10px;
+    border: none;
+    /* border: 1px solid #a07070; */
+    border-radius: 10px;
+    box-shadow: 0.1em 0em 1em #817f7f;
+    margin-left: 1em;
+  }
+  .fasfa-mobile-alt{
+    font-size:48px;
+    color:red;
+    height: 15px;
+    width: 15px;
+  }
+  
+  .contactbutton {
+    padding: 10px 20px;
+    background-color: rgb(255, 0, 0);
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 0.3em;
+    cursor: pointer;
+    box-shadow: 0.1em 0em 1em #010101;
+    width: 15em;
+    
+    height: 45px;
+    font-size: 17px;
+    font-weight: bold;
+    margin-left: 1em;
+    margin-right: 1em;
+  }
+  
+  .CALL{
+    width: 70%;
+    /* height: 100%; */
+    position: absolute;
+    border-radius: 2em;
+    /* overflow: hidden; */
+    opacity: 0.3;
+    z-index: -1;
+    /* border: 1px solid fuchsia; */
+  }
+  .CALL2{
+    width: 15%;
+    height: 30%;
+    background-color: rgba(221, 221, 228, 0.177);
+    /* border: 1px solid salmon; */
+  }
+  .iconlaga{
+    height: fit-content;
+    width: 20vw;
+    /* margin:  0.1em 0; */
+    /* border: 1px solid yellowgreen; */
+    display: flex;
+    /* padding: 1%; */
+    font-size: large;
+    font-weight: bolder;
+  }
+  .mereicons{
+    padding: 1%;
+    font-size: xx-large;
+    font-weight: bolder;
+    border: none;
+    outline: none;
+    /* border: 1px solid red; */
+    margin-top: 10%;
+  }
+
+  @media (max-width:1024px){
+    .containercontact {
+      width: 70%;
+      height: fit-content;
+      display: flex;
+      flex-direction: column;
+      /* border: 1px solid black; */
+      margin-left: 15vw;
+      margin-right: 15vw;
+      background-color: rgba(255, 255, 255, 0.122);
+      border-radius: 2em;
+      margin-top: 5em;
+      margin-bottom: 5em;
+      box-shadow: 0.1em 0em 1em rgb(162, 161, 161);
+    }
+    .uppercontactcontainer{
+      height: 80%;
+      /* border: 1px solid green; */
+      display: flex;
+        flex-direction: row;
+        
+      }
+      
+      .uppercontact {
+        height: 100%;
+        width: 100%;
+        margin-right: 10vw;
+        margin-left: 10vw;
+        /* border: 1px solid blue; */
+        /* padding: 20px; */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+      }
+      
+      .lowercontact {
+        height: fit-content;
+        display: flex;
+        flex-direction: row;
+        font-size: 14px;
+        font-weight: bold;
+        /* border: 1px solid purple; */
+        /* margin-left: 20vw; */
+        width: 100%;
+        margin-left: 0;
+      }
+      .lowerleft{
+        width: 50%;
+        /* border: 1px solid hotpink; */
+      }
+      
+      .h22 {
+        margin-bottom: 20px;
+        margin-top: 20px;
+        font-weight: bold;
+        font-size: 40px;
+        margin-left: 1em;
+        /* border: 1px solid brown; */
+        text-align: center;
+        margin: 0 auto;
+      }
+      
+      .form-groupcontact {
+        margin-bottom: 20px;
+        /* border: 1px solid rgb(1, 91, 101); */
+        margin-left: 1em;
+        margin-right: 1em;
+      }
+      
+      .label1 {
+        display: block;
+        margin-bottom: 5px;
+        font-weight: bold; 
+        font-size: 18px;
+        /* border: 1px solid rgb(140, 140, 2); */
+        
+      }
+      
+      .formki {
+        width: 90%;
+        padding: 10px;
+        border: none;
+        /* border: 1px solid #a07070; */
+        border-radius: 10px;
+        box-shadow: 0.1em 0em 1em #817f7f;
+        margin-left: 1em;
+      }
+      .fasfa-mobile-alt{
+        font-size:48px;
+        color:red;
+        height: 15px;
+        width: 15px;
+      }
+      
+      .contactbutton {
+        padding: 10px 20px;
+        background-color: rgb(255, 0, 0);
+        color: rgb(255, 255, 255);
+        border: none;
+        border-radius: 0.3em;
+        cursor: pointer;
+        box-shadow: 0.1em 0em 1em #010101;
+        width: 15em;
+        
+        height: 45px;
+        font-size: 17px;
+        font-weight: bold;
+        margin-left: 5em;
+        margin-right: 5em;
+      }
+      
+      .CALL{
+        width: 70%;
+        /* height: 100%; */
+        position: absolute;
+        border-radius: 2em;
+        /* overflow: hidden; */
+        opacity: 0.8;
+        z-index: -1;
+        /* border: 1px solid fuchsia; */
+      }
+      .CALL2{
+        width: 15%;
+        height: 30%;
+        background-color: rgba(221, 221, 228, 0.177);
+        /* border: 1px solid salmon; */
+      }
+      .iconlaga{
+        height: fit-content;
+        width:99em;
+        /* margin:  0.1em 0; */
+        /* border: 1px solid yellowgreen; */
+        display: flex;
+        /* padding: 1%; */
+        font-size: large;
+        font-weight: bolder;
+      }
+      .mereicons{
+        padding: 1%;
+        font-size: large;
+        font-weight: bolder;
+        border: none;
+        outline: none;
+        /* border: 1px solid red; */
+        margin-top: 10%;
+      }
+  }
+  @media (max-width:770px){
+    .lowercontact {
+      height: fit-content;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      font-size: 14px;
+      font-weight: bold;
+      /* border: 1px solid purple; */
+      /* margin-left: 20vw; */
+      width: 100%;
+      margin-left: 0;
+
+    }
+    .mereicons{
+      padding: 1%;
+      font-size: large;
+      font-weight: bolder;
+      border: none;
+      outline: none;
+      /* border: 1px solid red; */
+      margin-top: 10%;
+    }
+    .iconlaga{
+      /* height: fit-content; */
+      width:30vw;
+      /* margin:  0.1em 0; */
+      /* border: 1px solid yellowgreen; */
+      display: flex;
+      /* padding: 1%; */
+      font-size: medium;
+    font-weight: bold;
+    }
+    .uppercontact{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: 0;
+    }
+     .form-groupcontact {
+        margin-bottom: 20px;
+        /* border: 1px solid rgb(1, 91, 101); */
+        margin-left: 1vw;
+        margin-right: 1vw;
+      }
+      .form-cont{
+        /* border: 1px solid black; */
+        /* margin-left: 5em;
+        margin-right: 15em; */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 50%;
+      }
+      .h22{
+        /* border: 1px solid green; */
+        margin-left: 1vw;
+        margin-right: 1vw;
+      }
+      .contactbutton{
+        width: 100%;
+      }
+  }

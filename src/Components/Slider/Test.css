@@ -1,0 +1,111 @@
+.testimonial-container {
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  margin: 0 auto;
+  border-radius: 2%;
+  box-shadow: 0.1em 0em 1em rgb(185, 185, 185);
+  padding-bottom: 3%;
+  padding-top: 3%;
+  /* border: 1px solid green; */
+}
+
+#Test {
+  /* margin-top: 10em; */
+  margin-left: 1.5em;
+  margin-right: 1.5em;
+  /* border: 1px solid blue; */
+  /* justify-content: center; */
+  /* align-items: center; */
+}
+.testimonial-card {
+  margin-bottom: 1.5em;
+  width: 34em;
+  height: 22em;
+  padding: 1.4em;
+  border-radius: 4px;
+  margin-bottom: 4em;
+  background-color: #eee5e5;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 0 auto;
+  margin-left: 2%;
+  margin-right: 2%;
+  margin-top: 7%;
+  border: 1px solid hotpink;
+}
+
+
+.client-photo {
+  width: 9em;
+  height: 9em;
+  border-radius: 50%;
+  margin-bottom: 1em;
+
+}
+
+.client-name {
+  font-weight: bold;
+}
+
+.rating {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.star-icon {
+  color: #ffcc00;
+  font-size: 28px;
+  margin-right: 5px;
+}
+.Testimonial-Heading{
+  margin-left: 35%;
+  margin-right: 35%;
+  margin-top: 20%;
+  text-align: center;
+  margin-bottom: 2%;
+}
+.cust-para{
+  color: gray;
+  /* border: 1px solid red; */
+  width: 46em;
+  /* margin: 0 20%; */
+  margin-left: 20vw;
+  margin-right: 20vw;
+  margin-bottom: 2%;
+  text-align: center;
+ /* height: 1%; */
+}
+
+@media (max-width:1000px) {
+  .testimonial-container {
+    flex-direction: column;
+    align-items: center;
+
+  }
+
+  .testimonial-card {
+    margin-top: 1%;
+    width: 90%;
+    height: fit-content;
+  }
+  .cust-para{
+   /* margin-left: 10%; */
+   /* margin-right: 50%; */
+   height: fit-content;
+   margin-left: 5vw;
+   margin-right: 5vw;
+   padding: 2%;
+   width: 90vw;
+   text-align: center;
+   /* border: 1px solid rebeccapurple; */
+  }
+  .Testimonial-Heading{
+    /* text-align: center; */
+    width: 90vw;
+    margin-left: 5vw;
+   margin-right: 5vw;
+  }
+}

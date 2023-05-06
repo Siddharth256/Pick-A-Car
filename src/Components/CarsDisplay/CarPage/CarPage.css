@@ -1,0 +1,299 @@
+*{
+    margin: 0;
+}
+.CarPageMain{
+    margin-top: 5%;
+    margin-bottom: 8%;
+    /* border: 1px solid red; */
+   margin-left: 15%;
+   margin-right: 15%;
+   background-color: white;
+   border-radius: 2%;
+   width: 70vw;
+   box-shadow: 0.1em 0em 1em rgb(159, 159, 159);
+}
+.CarDivs{
+    /* border: 1px solid green; */
+    display: flex;
+    padding: 2%;
+    border-radius: 15%;
+}
+.gear{
+    font-size: larger;
+    color: gray;
+    font-weight: bolder;
+}
+.CarImg img{
+    width: 80%;
+    background-color: rgb(227, 227, 227);
+    /* border: 1px solid blueviolet; */
+    margin-top: 15%;
+    margin-bottom: 15%;
+    margin-left: 10%;
+}
+.Name{
+    /* border: 1px solid yellowgreen; */
+    text-align: center;
+    font-size: xx-large;
+    font-weight: bolder;
+    /* margin-bottom: 50%; */
+    margin-top: 20%;
+    color: red;
+    font-weight: bolder;
+}
+.Features{
+    /* border: 1px solid purple; */
+    display: flex;
+    margin-top: 15%;
+    width: 22em;
+}
+.Features div{
+    margin: 2%;
+    /* border: 1px solid gold; */
+    font-size: larger;
+    font-weight: bold;
+    width: 12em;
+    margin-top: 1%;
+}
+.RentCart{
+    /* border: 1px solid brown; */
+    display: flex;
+    padding: 5%;
+}
+.RentCart div{
+   margin-top: 8%;
+   font-size: larger;
+   font-weight: bolder;
+   width: 7em;
+   color: rgb(59, 59, 59);
+}
+.RentCart button{
+    background-color: red;
+    color: white;
+    border: none;
+    font-size: large;
+    font-weight: bold;
+    height: 50%;
+    padding: 3%;
+    width: 60%;
+    border-radius: 5%;
+    box-shadow: 0.01em 0em 1em rgb(255, 66, 66);
+    margin-top: 5%;
+}
+.GoBack{
+   height: fit-content;
+   border-radius: 50%;
+   width: 3em;
+   height: 3em;
+   background-color: rgb(0, 0, 0);
+   color: white;
+   border: none;
+   font-weight: bold;
+   /* font-size:x-large; */
+   /* font-weight: bold; */
+   text-align: center;
+   cursor: pointer;
+   box-shadow: 0.1em 0 1em rgb(131, 131, 131);
+}
+@media (max-width:1024px){
+    .CarPageMain{
+        margin-top: 5%;
+        margin-bottom: 8%;
+        /* border: 1px solid red; */
+       margin-left: 15%;
+       margin-right: 15%;
+       background-color: white;
+       border-radius: 2%;
+       width: 70vw;
+       box-shadow: 0.1em 0em 1em rgb(159, 159, 159);
+    }
+    .CarDivs{
+        /* border: 1px solid green; */
+        display: flex;
+        flex-direction: column;
+        padding: 2%;
+        border-radius: 15%;
+    }
+    .gear{
+        font-size: larger;
+        color: gray;
+        font-weight: bolder;
+    }
+    .CarImg img{
+        width: 80%;
+        background-color: rgb(227, 227, 227);
+        /* border: 1px solid blueviolet; */
+        margin-top: 15%;
+        margin-bottom: 5%;
+        margin-left: 10%;
+    }
+    .Name{
+        /* border: 1px solid yellowgreen; */
+        text-align: center;
+        font-size: xx-large;
+        font-weight: bolder;
+        /* margin-bottom: 50%; */
+        margin-top: 1%;
+        color: red;
+        font-weight: bolder;
+    }
+    .Features{
+        /* border: 1px solid rgb(59, 1, 12); */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+        /* margin-bottom: 20%; */
+        margin-top: 0%;
+        width: 22vw;
+    }
+    .Features div{
+        margin: 2%;
+        /* border: 1px solid gold; */
+        font-size: large;
+        font-weight: bold;
+        width: 12vw;
+        margin-top: 1%;
+    }
+    .RentCart{
+        /* border: 1px solid brown; */
+        display: flex;
+        padding: 5%;
+    }
+    .RentCart div{
+       margin-top: 8%;
+       font-size: larger;
+       font-weight: bolder;
+       width: 7em;
+       color: rgb(59, 59, 59);
+    }
+    .RentCart button{
+        background-color: red;
+        color: white;
+        border: none;
+        font-size: large;
+        font-weight: bold;
+        height: 50%;
+        padding: 3%;
+        width: 60%;
+        border-radius: 5%;
+        box-shadow: 0.01em 0em 1em rgb(255, 66, 66);
+        margin-top: 5%;
+    }
+    .GoBack{
+       height: fit-content;
+       border-radius: 50%;
+       width: 3em;
+       height: 3em;
+       background-color: rgb(0, 0, 0);
+       color: white;
+       border: none;
+       font-weight: bold;
+       /* font-size:x-large; */
+       /* font-weight: bold; */
+       text-align: center;
+       cursor: pointer;
+       box-shadow: 0.1em 0 1em rgb(131, 131, 131);
+    }
+}
+@media (max-width:600px){
+    .CarPageMain{
+        margin-top: 5%;
+        margin-bottom: 8%;
+        /* border: 1px solid red; */
+       margin-left: 15%;
+       margin-right: 15%;
+       background-color: white;
+       border-radius: 2%;
+       width: 70vw;
+       box-shadow: 0.1em 0em 1em rgb(159, 159, 159);
+    }
+    .CarDivs{
+        /* border: 1px solid green; */
+        display: flex;
+        flex-direction: column;
+        padding: 2%;
+        border-radius: 15%;
+    }
+    .gear{
+        font-size: larger;
+        color: gray;
+        font-weight: bolder;
+    }
+    .CarImg img{
+        width: 80%;
+        background-color: rgb(227, 227, 227);
+        /* border: 1px solid blueviolet; */
+        margin-top: 15%;
+        margin-bottom: 5%;
+        margin-left: 10%;
+    }
+    .Name{
+        /* border: 1px solid yellowgreen; */
+        text-align: center;
+        font-size: x-large;
+        /* font-weight: bolder; */
+        /* margin-bottom: 50%; */
+        margin-top: 1%;
+        color: red;
+        font-weight: bold;
+    }
+    .Features{
+        /* border: 1px solid rgb(59, 1, 12); */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+        /* margin-bottom: 20%; */
+        margin-top: 0%;
+        width: 22vw;
+    }
+    .Features div{
+        margin: 2%;
+        /* border: 1px solid gold; */
+        font-size: medium;
+        font-weight: bold;
+        width: 22vw;
+        margin-top: 1%;
+    }
+    .RentCart{
+        /* border: 1px solid brown; */
+        display: flex;
+        padding: 5%;
+    }
+    .RentCart div{
+       margin-top: 8%;
+       font-size: larger;
+       font-weight: bolder;
+       width: 7em;
+       color: rgb(59, 59, 59);
+    }
+    .RentCart button{
+        background-color: red;
+        color: white;
+        border: none;
+        font-size: large;
+        font-weight: bold;
+        height: 50%;
+        padding: 3%;
+        width: 60%;
+        border-radius: 5%;
+        box-shadow: 0.01em 0em 1em rgb(255, 66, 66);
+        margin-top: 5%;
+    }
+    .GoBack{
+       height: fit-content;
+       border-radius: 50%;
+       width: 3em;
+       height: 3em;
+       background-color: rgb(0, 0, 0);
+       color: white;
+       border: none;
+       font-weight: bold;
+       /* font-size:x-large; */
+       /* font-weight: bold; */
+       text-align: center;
+       cursor: pointer;
+       box-shadow: 0.1em 0 1em rgb(131, 131, 131);
+    }
+}

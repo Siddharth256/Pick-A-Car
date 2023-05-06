@@ -1,0 +1,83 @@
+[
+    {
+        "id": 1,
+        "Name": " Brezza",
+        "Fuel": "Diesel",
+        "Seats": "7 Seater",
+        "Rent": 115,
+        "Type": "Automatic",
+        "src":"/SUV/brezza (AT).png"  
+    },
+    {
+        "id": 2,
+        "Name": " Brezza",
+        "Fuel": "Diesel",
+        "Seats": "7 Seater",
+        "Rent": 108,
+        "Type": "Manual",
+        "src":"/SUV/brezza.png"  
+    },
+    {
+        "id": 3,
+        "Name": "Creta",
+        "Fuel": "Petrol",
+        "Seats": "7 Seater",
+        "Rent": 111,
+        "Type": "Automatic",
+        "src":"/SUV/Creta (AT).png"
+    },
+    {
+        "id": 4,
+        "Name": "Creta",
+        "Fuel": "Petrol",
+        "Seats": "7 Seater",
+        "Rent": 115,
+        "Type": "Automatic",
+        "src":"/SUV/Creta (P).png"
+    },
+    {
+        "id": 5,
+        "Name": "Creta",
+        "Fuel": "Diesel",
+        "Seats": "7 Seater",
+        "Rent": 108,
+        "Type": "Automatic",
+        "src":"/SUV/Creta.png"
+    },
+    {
+        "id": 6,
+        "Name": "Mahindra XUV 300",
+        "Fuel": "Diesel",
+        "Seats": "7 Seater",
+        "Rent": 108,
+        "Type": "Manual",
+        "src":"/SUV/RevvMahindraXUV300 (M).png" 
+    },
+    {
+        "id": 7,
+        "Name": "Mahindra XUV 300",
+        "Fuel": "Diesel",
+        "Seats": "7 Seater",
+        "Rent": 111,
+        "Type": "Automatic",
+        "src":"/SUV/RevvMahindraXUV300.png"  
+    },
+    {
+        "id": 8,
+        "Name": "Scorpio",
+        "Fuel": "Petrol",
+        "Seats": "9 Seater",
+        "Rent": 115,
+        "Type": "Manual",
+        "src":"/SUV/scorpio.png"  
+    },
+    {
+        "id": 9,
+        "Name": "XUV",
+        "Fuel": "Petrol",
+        "Seats": "7 Seater",
+        "Rent": 110,
+        "Type": "Automatic",
+        "src":"/SUV/xuv.png"  
+    }
+]

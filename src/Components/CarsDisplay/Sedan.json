@@ -1,0 +1,84 @@
+[
+    {
+        "id": 1,
+        "Name": " Amaze",
+        "Fuel": "Diesel",
+        "Seats": "5 Seater",
+        "Rent": 94,
+        "Type": "Manual",
+        "src":"/Sedan/amaze.png"
+    },
+    {
+        "id": 2,
+        "Name": "Ciaz",
+        "Fuel": "Diesel",
+        "Seats": "4 Seater",
+        "Rent": 100,
+        "Type": "Manual",
+        "src":"/Sedan/CiazWEBPAGE (D).png"  
+    },
+    {
+        "id": 3,
+        "Name": "Ciaz",
+        "Fuel": "Petrol",
+        "Seats": "5 Seater",
+        "Rent": 101,
+        "Type": "Automatic",
+        "src":"/Sedan/CiazWEBPAGE.png"
+    },
+    {
+        "id": 4,
+        "Name": "Dzire",
+        "Fuel": "Petrol",
+        "Seats": "5 Seater",
+        "Rent": 99,
+        "Type": "Automatic",
+        "src":"/Sedan/dzire (P).png"
+    },
+    {
+        "id": 5,
+        "Name": "Dzire",
+        "Fuel": "Diesel",
+        "Seats": "4 Seater",
+        "Rent": 104,
+        "Type": "Automatic",
+        "src":"/Sedan/dzire.png"
+    },
+    {
+        "id": 6,
+        "Name": "Honda City",
+        "Fuel": "Diesel",
+        "Seats": "4 Seater",
+        "Rent": 94,
+        "Type": "Automatic",
+        "src":"/Sedan/honda+city.png"
+    },
+    {
+        "id": 7,
+        "Name": "Verna",
+        "Fuel": "Diesel",
+        "Seats": "5 Seater",
+        "Rent": 104,
+        "Type": "Automatic",
+        "src":"/Sedan/RevvWebsiteVERNA+ (AT).png"  
+    },
+    {
+        "id": 8,
+        "Name": "Verna",
+        "Fuel": "Petrol",
+        "Seats": "5 Seater",
+        "Rent": 94,
+        "Type": "Manual",
+        "src":"/Sedan/RevvWebsiteVERNA+ (M-P).png"  
+    },
+    {
+        "id": 9,
+        "Name": "Verna",
+        "Fuel": "Petrol",
+        "Seats": "5 Seater",
+        "Rent": 96,
+        "Type": "Automatic",
+        "src":"/Sedan/RevvWebsiteVERNA+.png"  
+    }
+]
+

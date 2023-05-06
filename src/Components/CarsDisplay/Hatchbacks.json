@@ -1,0 +1,92 @@
+[
+    {
+        "id": 1,
+        "Name": " Maruti Suzuki Alto K10",
+        "Fuel": "Diesel",
+        "Seats": "4 Seater",
+        "Rent": 94,
+        "Type": "Manual",
+        "src":"/Hatchbacks/Altok10.png"
+    },
+    {
+        "id": 2,
+        "Name": "Maruti Suzuki Baleno",
+        "Fuel": "Diesel",
+        "Seats": "4 Seater",
+        "Rent": 100,
+        "Type": "Manual",
+        "src":"/Hatchbacks/baleno (D).png"
+    },
+    {
+        "id": 3,
+        "Name": "Hyundai Eon1",
+        "Fuel": "Diesel",
+        "Seats": "5 Seater",
+        "Rent": 101,
+        "Type": "Automatic",
+        "src":"/Hatchbacks/Eon1.png"
+    },
+    {
+        "id": 4,
+        "Name": "Hyundai Grand i10",
+        "Fuel": "Petrol",
+        "Seats": "5 Seater",
+        "Rent": 99,
+        "Type": "Automatic",
+        "src":"/Hatchbacks/grand_i10.png"
+    },
+    {
+        "id": 5,
+        "Name": "Hyundai i20",
+        "Fuel": "Petrol",
+        "Seats": "4 Seater",
+        "Rent": 104,
+        "Type": "Automatic",
+        "src":"/Hatchbacks/i20 (P).png"
+    },
+    {
+        "id": 6,
+        "Name": "Hyundai i20",
+        "Fuel": "Diesel",
+        "Seats": "4 Seater",
+        "Rent": 94,
+        "Type": "Automatic",
+        "src":"/Hatchbacks/i20.png"
+    },
+    {
+        "id": 7,
+        "Name": "Mahindra KUV 100",
+        "Fuel": "Diesel",
+        "Seats": "5 Seater",
+        "Rent": 104,
+        "Type": "Automatic",
+        "src":"/Hatchbacks/KUV-100.png"
+    },
+    {
+        "id": 8,
+        "Name": "Hyundai Santro",
+        "Fuel": "Diesel",
+        "Seats": "5 Seater",
+        "Rent": 94,
+        "Type": "Manual",
+        "src":"/Hatchbacks/RevvSANTRO.png"
+    },
+    {
+        "id": 9,
+        "Name": "Maruti Suzuki Swift",
+        "Fuel": "Petrol",
+        "Seats": "5 Seater",
+        "Rent": 96,
+        "Type": "Manual",
+        "src":"/Hatchbacks/Swift.png"
+    },
+    {
+        "id": 10,
+        "Name": "Maruti Suzuki Baleno",
+        "Fuel": "Petrol",
+        "Seats": "4 Seater",
+        "Rent": 102,
+        "Type": "Automatic",
+        "src":"/Hatchbacks/baleno.png"
+    }
+]
